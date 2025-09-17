@@ -6,7 +6,7 @@
 # ========================================
 # SECTION 1: QUICK TRANSLATION CHALLENGE
 # ========================================
-print("Grade Classification")
+# print("Grade Classification")
 # score = 87
 # if score >= 90:
 #     print("A grade!")
@@ -19,16 +19,18 @@ print("Grade Classification")
 # ========================================
 # SECTION 2: AGE CATEGORY CLASSIFIER
 # ========================================
-age = input("Enter your age: ")
+age_verification = input("Enter your age: ")
 
-if 0 <= age <=12:
+if 0 <= age_verification <=12:
     print("You are a child")
-elif 13 <= age <= 19:
+elif 13 <= age_verification <= 19:
     print("you are a teenager")
-elif 20 <= age <= 64:
+elif 20 <= age_verification <= 64:
     print("you are an adult")
-else: age >= 65 
-print("you are a senior citizen")
+elif age_verification >= 65:
+    print("you are a senior citizen")
+else: 
+    print("Enter a valid age")
 
 # ========================================
 # SECTION 3: STUDENT STATUS CHECKER
@@ -43,3 +45,8 @@ print("you are a senior citizen")
 # ========================================
 # SECTION 5: WEATHER DECISION SYSTEM
 # ==========
+
+
+
+
+fav_number = input("Favorite number:")
