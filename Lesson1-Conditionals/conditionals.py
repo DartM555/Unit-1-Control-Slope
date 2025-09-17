@@ -19,7 +19,7 @@
 # ========================================
 # SECTION 2: AGE CATEGORY CLASSIFIER
 # ========================================
-age_verification = input("Enter your age: ")
+age_verification = int(input("Enter your age: "))
 
 if 0 <= age_verification <=12:
     print("You are a child")
@@ -48,5 +48,3 @@ else:
 
 
 
-
-fav_number = input("Favorite number:")
