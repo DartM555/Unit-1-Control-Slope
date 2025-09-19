@@ -19,23 +19,33 @@
 # ========================================
 # SECTION 2: AGE CATEGORY CLASSIFIER
 # ========================================
-age_verification = int(input("Enter your age: "))
+# age_verification = int(input("Enter your age: "))
 
-if 0 <= age_verification <=12:
-    print("You are a child")
-elif 13 <= age_verification <= 19:
-    print("you are a teenager")
-elif 20 <= age_verification <= 64:
-    print("you are an adult")
-elif age_verification >= 65:
-    print("you are a senior citizen")
-else: 
-    print("Enter a valid age")
+# if 0 <= age_verification <=12:
+#     print("You are a child")
+# elif 13 <= age_verification <= 19:
+#     print("you are a teenager")
+# elif 20 <= age_verification <= 64:
+#     print("you are an adult")
+# elif age_verification >= 65:
+#     print("you are a senior citizen")
+# else: 
+#     print("Enter a valid age")
 
 # ========================================
 # SECTION 3: STUDENT STATUS CHECKER
 # ========================================
+age = 17
+gpa = 3.8
+has_lisence = True
 
+can_drive = age >= 16 and has_lisence
+honor_roll = gpa >= 3.5
+eligible = can_drive and honor_roll and age >= 17
+
+if eligible: 
+    print("Scholarship candidate")
+ 
 
 # ========================================
 # SECTION 4: GRADE VALIDATOR CHALLENGE
