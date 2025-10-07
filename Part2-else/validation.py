@@ -16,6 +16,6 @@ while True:
     if has_space:
         print("No spacese allowed!") 
         continue
-    # username validatoin passed
+    # username validation passed
     print(f"Username '{username}' accepted!\n")
         
